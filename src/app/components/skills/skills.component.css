@@ -1,0 +1,21 @@
+#skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+#skills .rating {
+  display: flex;
+}
+
+#skills .rating div {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+#skills .rating div.filled {
+  background-color: #007bff;
+}

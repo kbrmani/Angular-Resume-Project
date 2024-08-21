@@ -1,0 +1,10 @@
+<section id="contact">
+  <h3>Contact Me</h3>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <input formControlName="name" placeholder="Name">
+    <input formControlName="email" placeholder="Email">
+    <textarea formControlName="message" placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+  
+</section>

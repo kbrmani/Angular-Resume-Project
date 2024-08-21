@@ -1,0 +1,9 @@
+<section id="skills">
+  <h3>Skills</h3>
+  <div *ngFor="let skill of skills">
+    <span>{{ skill.name }}</span>
+    <div class="rating" (mouseover)="showRating(skill)" (mouseleave)="hideRating(skill)">
+      <div *ngFor="let star of skill.stars" [class.filled]="star <= skill.rating"></div>
+    </div>
+  </div>
+</section>

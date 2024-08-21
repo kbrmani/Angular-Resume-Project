@@ -1,0 +1,8 @@
+<section id="experience">
+  <h3>Experience</h3>
+  <div *ngFor="let job of jobs">
+    <h4>{{ job.title }} at {{ job.company }}</h4>
+    <p>{{ job.duration }}</p>
+    <button (click)="openModal(job)">More Details</button>
+  </div>
+</section>
