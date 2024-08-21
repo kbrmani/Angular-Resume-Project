@@ -11,7 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { GoogleMapsModule } from '@angular/google-maps';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +30,6 @@ import { GoogleMapsModule } from '@angular/google-maps';
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
-    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
